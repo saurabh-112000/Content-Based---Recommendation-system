@@ -9,6 +9,13 @@ Recommendation system is created for the content present on Netflix. Tags are cr
 ![Project demo](demo.gif)
 
 
+## Deployment
+
+Project is deployed to heroku.
+
+[Link to deployed Project](https://nflix-recsys-saurabh.herokuapp.com/)
+
+
   
 ## API Reference
 
@@ -30,11 +37,6 @@ https://api.themoviedb.org/3/find/{external_id}?api_key=<<api_key>>&language=en-
 
 
   
-## Deployment
-
-Project is deployed to heroku.
-
-[Link to deployed Project](https://nflix-recsys-saurabh.herokuapp.com/)
 
   
 ## Dataset Used
