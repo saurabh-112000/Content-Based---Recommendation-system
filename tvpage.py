@@ -12,7 +12,7 @@ def final():
     empty_poster_set = set(('https://image.tmdb.org/t/p/w500/None', 'https://image.tmdb.org/t/p/w500/'))
 
     def get_poster(reqid, code):
-        response = requests.get("https://api.themoviedb.org/3/find/{}?api_key=2edc067e0bbbe13d73b37e3dd6d22e9f&language=en-US&external_source=imdb_id".format(reqid))
+        response = requests.get("https://api.themoviedb.org/3/find/{}?api_key=<yourapikey>&language=en-US&external_source=imdb_id".format(reqid))
         data = response.json()
         result = data
         getvalues = lambda key, inputData: [subVal[key] for subVal in inputData if key in subVal]
